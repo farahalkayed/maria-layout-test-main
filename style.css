@@ -1,0 +1,28 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+
+.fairly-odd-page main {
+  background-color: #b4b7ec;
+  background-image: url("images/fairly-odd-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+}
+nav li {
+  margin-left: 40px;
+}
